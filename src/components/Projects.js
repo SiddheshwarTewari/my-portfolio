@@ -20,8 +20,8 @@ export default function Projects() {
           <div key={project.title} className="p-6 border rounded shadow bg-white">
             <h4 className="text-xl font-bold mb-2">{project.title}</h4>
             <p className="mb-4">{project.description}</p>
-            <a href={project.link} target="_blank" className="text-blue-600 hover:underline">
-              View on GitHub →
+            <a href="https://example.com" target="_blank" rel="noreferrer">
+              Visit Site
             </a>
           </div>
         ))}
